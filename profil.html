@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+ <title>Profil Diri</title>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body style="background-color:rgb(219, 230, 236);"> 
+
+    <div id="app">
+       <h2>{{message}}</h2>
+       <p>{{nama}}</p>
+       <P>{{nim}}</P>
+       <P>{{jurusan}}</P>
+       <p>{{fakultas}}</p>
+       <p>{{alamat}}</p>
+       <p>{{agama}}</p>
+       <p>{{jenis_kelamin}}</p>
+       
+      </div>
+
+      <script type="text/javascript">
+                var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'Profil Mahasiswi UIN SUSKA RIAU ',
+            nama:   'Nama : Hafsyah',
+            nim: 'Nim : 11950125075',
+            jurusan:  'Jurusan :  Teknik Informatika',
+            fakultas:   'Fakultas : Sains dan Teknologi',
+            alamat: 'Alamat: Rokan Hulu',
+            agama: 'Agama: Islam',
+            jenis_kelamin: 'Jenis Kelamin: Perempuan'
+        }
+        })
+      </script>
+</html>
+</body>
